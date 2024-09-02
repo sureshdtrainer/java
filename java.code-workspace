@@ -1,0 +1,18 @@
+{
+	"folders": [
+		{
+			"path": "firstjava"
+		},
+		{
+			"path": "secondjava"
+		},
+		{
+			"path": "thirdjava"
+		},
+		{
+			"name": "java",
+			"path": "."
+		}
+	],
+	"settings": {}
+}

@@ -8,6 +8,9 @@
 		},
 		{
 			"path": "thirdjava"
+		},
+		{
+			"path": "exercises"
 		}
 	],
 	"settings": {}

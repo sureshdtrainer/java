@@ -8,10 +8,6 @@
 		},
 		{
 			"path": "thirdjava"
-		},
-		{
-			"name": "java",
-			"path": "."
 		}
 	],
 	"settings": {}

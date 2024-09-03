@@ -57,42 +57,90 @@ public class App {
         // }
 
         // Create Scanner object2
-        //Scanner scanner = new Scanner(System.in);
+        // Scanner scanner = new Scanner(System.in);
 
         // Prompt user for the first numberS
-        //System.out.println("Enter the a number: ");
-        //int count = 0;
+        // System.out.println("Enter the a number: ");
+        // int count = 0;
         // accept the user input
         // int value =0;
         // do {
-        //     System.out.println("Enter the a number: ");
-        //     value = scanner.nextInt();
-        //     System.out.println("User entered value is " + value);
+        // System.out.println("Enter the a number: ");
+        // value = scanner.nextInt();
+        // System.out.println("User entered value is " + value);
 
         // } while (value != 5);
         // // String value = scanner.nextLine();
         // System.out.println("Got value as 5");
 
-        Scanner input = new Scanner(System.in);
- 
-        System.out.println("Please enter a command: ");
-        String text = input.nextLine();
+        // Scanner input = new Scanner(System.in);
 
- 
-        switch (text) {
-        case "start":
-            System.out.println("Machine started!");
-            //business logic 
-            break;
- 
-        case "stop":
-            System.out.println("Machine stopped.");
-            break;
- 
-        default:
-            System.out.println("Command not recognized");
+        // System.out.println("Please enter a command: ");
+        // String text = input.nextLine();
+
+        // switch (text) {
+        // case "start":
+        // System.out.println("Machine started!");
+        // //business logic
+        // break;
+
+        // case "stop":
+        // System.out.println("Machine stopped.");
+        // break;
+
+        // default:
+        // System.out.println("Command not recognized");
+        // }
+
+        // An Array is a group of like typed variable
+
+        int[] values; // declaration
+        values = new int[3]; // assign the memory size
+
+        values[0] = 10; // assign
+        values[1] = 20;
+        values[2] = 30;
+
+        System.out.println(values[0]);
+        System.out.println(values[1]);
+        System.out.println(values[2]);
+
+        int[] numbers = { 5, 6, 7 };
+
+        // 2D array (grid or table)
+
+		int[][] grid = { 
+            { 3, 5, 2343 }, 
+            { 2, 4 }, 
+            { 1, 2, 3, 4 } };
+
+            // Need 2 indices to access values
+		System.out.println("value 1 1 " + grid[1][1]);
+		System.out.println("value 0 2 " + grid[0][2]);
+
+        for (int i = 0; i < numbers.length; i++) {
+            System.out.println(numbers[i]);
         }
 
+        // Declare array of (references to) strings.
+        String[] words = new String[3];
+
+        // Set the array elements (point the references
+        // at strings)
+        words[0] = "Hello";
+        words[1] = "to";
+        words[2] = "you";
+
+        // Access an array element and print it.
+        System.out.println(words[2]);
+
+        // Simultaneously declare and initialize an array of strings
+        String[] fruits = { "apple", "banana", "pear", "kiwi" };
+
+        // Iterate through an array
+        for (String fruit : fruits) {
+            System.out.println(fruit);
+        }
 
     }
 }

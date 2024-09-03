@@ -1,9 +1,9 @@
 package world;
 
-public class Student extends Person {
+public class Student extends Person implements Trainable{
 
     public Student(){
-        //super("Default",20);
+        super("Default",20);
         System.out.println("Student Default constructor");
         //this.name="DEFAULT";
         //this.age=20;
@@ -19,6 +19,12 @@ public class Student extends Person {
     public void walk(int speed) {
         // TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unimplemented method 'walk'");
+    }
+
+
+    @Override
+    public void train() {
+        System.out.println("Training is undergoing");
     }
 
 }

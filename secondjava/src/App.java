@@ -38,5 +38,6 @@ public class App {
 
         Student student1 = new Student();
         student1.walk();
+        student1.train();
     }
 }

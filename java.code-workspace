@@ -11,6 +11,9 @@
 		},
 		{
 			"path": "exercises"
+		},
+		{
+			"path": "designpatterns"
 		}
 	],
 	"settings": {}

@@ -12,10 +12,8 @@ public class App {
        nslogger3.log("My third message"+nslogger3);
        NonSingletonLogger nslogger4 = new NonSingletonLogger();
        nslogger4.log("My fourth message"+nslogger4);
-       
-       java.util.logging.Logger.getLogger(null)
-       
-        Logger logger1 = Logger.getInstance();
+              
+       Logger logger1 = Logger.getInstance();
        logger1.log("My first message" +logger1);
        Logger logger2 = Logger.getInstance();
        logger2.log("My second message"+logger2);
